@@ -11,6 +11,43 @@
 
 **The ALM will only be available if connected to the PBI network**
 
+Software requirements and summary:
+As V1.0 of the PBI ALM model we have decided to use the following technologies:
+
+1. Microsoft SQL Server (Data storage & Calculation Engine)
+
+This decision was made in support of the large datasets that get generated when doing Monte-Carlo Simulations. Using a database technology allows for efficient linking of datasets and storing of information in a central environment. SQL as a programming language is also powerful for automating calculations. Microsoft SQL Server is also the underlying technology of the PBI Pension Admin system and we should be able to leverage of licensing agreements that are already in place going into a production environment.
+
+2. Microsoft Excel (User Interface)
+
+We needed a tool to communicate with the underlying SQL Server database - MS Excel can do this if set up correctly and serves as a free tool to build the interface between the consultant and the calculation engine. In the longer term this functionality can be replaced by an HTML based front-end.
+
+To ensure that Excel can communicate with SQL some drivers may be required, some computers come with these out-of-the-box. Other need them installed. They are freely available from the Microsoft website.
+
+The SQL drivers for VBA can be found here:
+ 
+For 32 bit machines please install
+ 
+http://go.microsoft.com/fwlink/?LinkID=239647&clcid=0x409
+ 
+For 64 bit
+ 
+http://go.microsoft.com/fwlink/?LinkID=239648&clcid=0x409
+ 
+Installing this also wouldn’t hurt
+ 
+https://www.microsoft.com/en-us/download/details.aspx?id=5793
+
+3. Microsoft Power BI (Data presentation)
+
+Microsoft Power BI is a reasonably new software where Microsoft have decided to embrace the "open source" way of thinking. This tool is free for use (the desktop version) and provides amazing capability to aggregate and visualize large datasets. It also has a vibrant online collaborative community which ensures that the tool gets better and better over time.
+
+Power BI can freely be downloaded from the Microsoft website at the following address: 
+
+https://powerbi.microsoft.com/en-us/downloads/
+
+We will also keep a version of the software on the network for easy updates/installation. Power BI is currently being updated by Microsoft on a monthly basis.
+
 # Table of Contents
 * [Database Structure](#database-structure)
 * [Naming Conventions](#naming-conventions)
