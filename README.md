@@ -579,7 +579,13 @@ Where the discount rate corresponds to the type of liability that is calculated.
 
 # Frequently asked questions
 
+Ask me some questions - if the same question pops up more than once - we will list the questions and answers here
+
 # Don'ts
+
+As soon as we get multipe users running the model we will figure out what users are doing that they should ideally not be doing! This is a living document and will be updated as the model/tool/product takes shape in the coming months.
+
+For now **don't** be scared to play around, ask hard questions and give us some critical feedback!
 
 # Deployment
 
