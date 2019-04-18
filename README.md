@@ -157,12 +157,18 @@ The following section contain explanations of all acronymns used within the ALM 
    *ALM_I - ALM Input   
    *ALM_R - ALM Results
    
-
-
 # Getting Started
 ## Dependencies
+1. Drivers for Microsoft VBA to communicate with Microsoft SQL Server
+2. Microsoft Excel
+3. Microsoft Power BI
+4. Access to the PBI internal network as the ALM calculation engine is not available from outside the network
 
 ## Environments
+
+The database is currently being hosted in an SQL Server database at the following address VANDESKTOP70\PBI_EXPRESS. To alter the database the user would need a connection to this database.
+
+The user would also need access to the database with specific credentials that will allow read/write to the underlying data.
 
 ## Running the ALM
 The ALM is currently run from a Excel based front-end. The front-end uses VBA code to communicate with the SQL Server Database that the ALM model is hosted on. In order to run the ALM the user will need to set up his assumptions using the front-end following these steps.
