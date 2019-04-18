@@ -14,7 +14,7 @@
 ------------------------------------------------------------------------------------------------------
 Software requirements and summary:
 ------------------------------------------------------------------------------------------------------
-As V1.0 of the PBI ALM model we have decided to use the following technologies:
+For V1.0 of the PBI ALM model we have decided to use the following technologies:
 
 **1. Microsoft SQL Server (Data storage & Calculation Engine)**
 
