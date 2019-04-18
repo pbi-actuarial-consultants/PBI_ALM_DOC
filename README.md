@@ -173,6 +173,8 @@ The user would also need access to the database with specific credentials that w
 ## Running the ALM
 The ALM is currently run from a Excel based front-end. The front-end uses VBA code to communicate with the SQL Server Database that the ALM model is hosted on. In order to run the ALM the user will need to set up his assumptions using the front-end following these steps.
 
+https://drive.google.com/file/d/1qHmm58ryO3I7vr9YOmKnw18IWZA09D0V/view?usp=sharing
+
 ### 1. Define Assumption Set
 
 The first step in running the ALM is to set up the "Assumption Set". This term is used to describe the model inputs and assumptions that will be used to project the assets and liabilities into the future. Setting up the "Assumption Set" is a large part of the process and it is up to the user to decide whether a "Assumption Set" is required for the scenario to be modelled. 
