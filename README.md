@@ -7,7 +7,7 @@
 
 **Make sure you have access to Microsoft SQL Server**
 
-**We are currently using a test server hosted here: VANDESKTOP70\PBI_EXPRESS **
+**We are currently using a test server hosted here: VANDESKTOP104\PBI_EXPRESS2019 **
 
 **The ALM will only be available if connected to the PBI network**
 
